@@ -3,6 +3,7 @@ import Header from "./sections/Header.vue";
 import advantages from "./sections/adventages.vue";
 import program from "./sections/program.vue";
 import mobileApp from "./sections/mobile-app.vue"
+import DrSection from "./sections/DrSection.vue";
 import {nextTick} from "vue";
 function setHeight(){
   const width = window.innerWidth;
@@ -28,6 +29,7 @@ window.addEventListener('resize', setHeight)
   <advantages id="advantages"></advantages>
   <program></program>
   <mobile-app></mobile-app>
+  <DrSection></DrSection>
 </template>
 <style scoped>
 </style>
