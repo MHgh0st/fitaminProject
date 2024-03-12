@@ -61,7 +61,7 @@ function setText(){
 </script>
 
 <template>
-  <div id="con" class="container lg:h-[460px] h-[600px] relative mt-40 flex lg:flex-row flex-col  items-center">
+  <div id="con" class="container lg:h-[460px] h-[600px] relative xl:mt-40 mt-24 flex lg:flex-row flex-col  items-center">
       <div class="lg:w-2/3 w-fit grid grid-rows-6 lg:h-full h-1/6">
         <p class="sm:font-bold font-semibold sm:text-5xl text-4xl text-neutral">قهرمانان فیتامین</p>
         <div class="row-start-4 pr-6 lg:flex items-center text-neutral hidden">
